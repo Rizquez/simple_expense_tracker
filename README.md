@@ -13,7 +13,7 @@ pip install -r requirements.txt
 > [!NOTE]
 En la ubicación src/database/ se encuentra creada la BBDD en SQLite donde se almacena la informacion sobre los gastos que el usuario registra en la aplicacion. Acontinuacion se muestra el script para la creacion de la tabla
 
-```sql
+```
 CREATE TABLE IF NOT EXISTS record_expense (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     period DATE,
@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS record_expense (
     category TEXT,
     note TEXT
 );
+```
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
