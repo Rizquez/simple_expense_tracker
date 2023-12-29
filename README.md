@@ -1,5 +1,7 @@
 # Simple Expense Tracker
 
+![img](images/img.jpg)
+
 Este proyecto se realiza con el Framework de Tkinter para crear una aplicacion de escritorio que permite al usuario registrar de manera periodica los gastos que vaya realizando, asi como asignarle un concepto. Sumado a esto, la aplicacion posee un calendario en donde el usuario podra filtrar la fecha para realizar una busqueda sobre sus gastos de manera mas especifica, asi como editar o eliminar registros. Pudiendose reflejar en un pequeño grafico la relacion de sus gastos con los conceptos que los engloban.
 
 > [!IMPORTANT]
