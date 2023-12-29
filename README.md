@@ -1,5 +1,10 @@
 # Simple Expense Tracker
 
+Este proyecto se realiza con el Framework de Tkinter para crear una aplicacion de escritorio que permite al usuario registrar de manera periodica los gastos que vaya realizando, asi como asignarle un concepto. Sumado a esto, la aplicacion posee un calendario en donde el usuario podra filtrar la fecha para realizar una busqueda sobre sus gastos de manera mas especifica, asi como editar o eliminar registros. Pudiendose reflejar en un pequeño grafico la relacion de sus gastos con los conceptos que los engloban.
+
+> [!IMPORTANT]
+Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de Tkinter para la creacion de aplicaciones de escritorios con Python.
+
 ## Creacion del entorno de virtual:
 python -m virtualenv nombreEntorno
 
@@ -11,9 +16,9 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 > [!NOTE]
-En la ubicación src/database/ se encuentra creada la BBDD en SQLite donde se almacena la informacion sobre los gastos que el usuario registra en la aplicacion. Acontinuacion se muestra el script para la creacion de la tabla
+En la ubicación src/database/ se encuentra creada la BBDD en SQLite donde se almacena la informacion sobre los gastos que el usuario registra en la aplicacion. Acontinuacion se muestra el script para la creacion de la tabla.
 
-```
+```sql
 CREATE TABLE IF NOT EXISTS record_expense (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     period DATE,
