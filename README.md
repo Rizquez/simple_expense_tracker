@@ -14,8 +14,14 @@ python -m virtualenv nombreEntorno
 Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
 
 ## Dependencias
-pip freeze > requirements.txt  
+Comando para instalar las dependencias necesarias sobre este proyecto.
+```
 pip install -r requirements.txt
+```
+Comando para crear o actualizar el archivo txt que almacena las dependencias del proyecto.
+```
+pip freeze > requirements.txt  
+```
 
 > [!NOTE]
 En la ubicación src/database/ se encuentra creada la BBDD en SQLite donde se almacena la informacion sobre los gastos que el usuario registra en la aplicacion. Acontinuacion se muestra el script para la creacion de la tabla.
