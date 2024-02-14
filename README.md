@@ -20,6 +20,26 @@ python -m virtualenv venv
 > [!TIP]
 Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
 
+## Estructura del proyecto
+```
+├── LICENSE
+├── README.md
+├── main.py
+├── requirements.txt
+├── images
+│   └── img.jpg
+└── src
+    ├── database
+    │   └── expense_control.db
+    ├── models
+    │   ├── __init__.py
+    │   └── models.py
+    ├── sources
+    │   └── expense_icon.ico
+    └── utils
+        └── db.py
+```
+
 ## Dependencias
 Este comando instala las dependencias necesarias sobre este proyecto:
 ```
