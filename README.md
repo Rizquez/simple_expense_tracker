@@ -19,7 +19,6 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
     ├── database
     │   └── expense_control.db
     ├── models
-    │   ├── __init__.py
     │   └── models.py
     ├── sources
     │   └── expense_icon.ico
