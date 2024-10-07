@@ -7,7 +7,7 @@ Este proyecto se realiza con el Framework de Tkinter para crear una aplicacion d
 > [!IMPORTANT]
 Este proyecto es de caracter educativo y sirve para entender conceptos basicos relacionados al uso de Tkinter para la creacion de aplicaciones de escritorios con Python.
 
-## Estructura del proyecto
+## 📂 Estructura del proyecto
 ```
 ├── LICENSE
 ├── README.md
@@ -26,7 +26,7 @@ Este proyecto es de caracter educativo y sirve para entender conceptos basicos r
         └── db.py
 ```
 
-## Creacion del entorno de virtual:
+## ⚙️ Creacion del entorno de virtual:
 Se necesitara tener instalada previamente la libreria 'virtualenv', en caso contrario se podra instalar ejecutando el siguiente comando:
 ```
 pip install virtualenv
@@ -39,7 +39,7 @@ python -m virtualenv venv
 > [!TIP]
 Se recomienda la creación de un entorno virtual para optimizar el desarrollo y la ejecución del proyecto.
 
-## Dependencias
+## 🧾 Dependencias
 Este comando instala las dependencias necesarias sobre este proyecto:
 ```
 pip install -r requirements.txt
@@ -62,8 +62,8 @@ CREATE TABLE IF NOT EXISTS record_expense (
 );
 ```
 
-## Contribuciones
+## 📝 Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor haz un 'fork' del repositorio, crea una rama con tus mejoras y envía un 'pull request'.
 
-## Licencia
+## 📄 Licencia
 Este proyecto está bajo una licencia MIT. Consulta el archivo LICENSE para más detalles.
